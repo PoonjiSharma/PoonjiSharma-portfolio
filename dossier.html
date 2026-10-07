@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poonji Sharma | Executive Dossier & Strategic Profile | POONJISHARMA.com</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400;1,600&display=swap" rel="stylesheet">
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    @media print {
+      body { background: white !important; color: black !important; }
+      .no-print { display: none !important; }
+      .print-card { border: 1px solid #ddd !important; background: white !important; color: black !important; box-shadow: none !important; }
+      .print-text-dark { color: #111 !important; }
+      .print-text-muted { color: #555 !important; }
+    }
+    
+    /* Frosted Liquid Glass System */
+    .glass-card {
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.04) 100%) !important;
+      backdrop-filter: blur(24px) saturate(180%) !important;
+      -webkit-backdrop-filter: blur(24px) saturate(180%) !important;
+      border: 1px solid rgba(255, 255, 255, 0.32) !important;
+      box-shadow: inset 0 1.5px 1.5px 0 rgba(255, 255, 255, 0.7), 0 16px 40px 0 rgba(0, 0, 0, 0.45) !important;
+    }
+    .glass-btn {
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 100%) !important;
+      backdrop-filter: blur(16px) !important;
+      -webkit-backdrop-filter: blur(16px) !important;
+      border: 1px solid rgba(255, 255, 255, 0.45) !important;
+      box-shadow: inset 0 1.5px 1px 0 rgba(255, 255, 255, 0.8), 0 8px 24px 0 rgba(0, 0, 0, 0.35) !important;
+      color: #FFFFFF !important;
+      border-radius: 9999px;
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .glass-btn:hover {
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.18) 100%) !important;
+      border-color: rgba(255, 255, 255, 0.8) !important;
+      box-shadow: inset 0 2px 2px 0 rgba(255, 255, 255, 0.95), 0 14px 32px 0 rgba(0, 0, 0, 0.45) !important;
+      transform: translateY(-2px);
+    }
+    .glass-pill {
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.18) 0%, rgba(255, 255, 255, 0.05) 100%) !important;
+      backdrop-filter: blur(16px) !important;
+      -webkit-backdrop-filter: blur(16px) !important;
+      border: 1px solid rgba(255, 255, 255, 0.35) !important;
+      box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.65), 0 6px 18px 0 rgba(0, 0, 0, 0.3) !important;
+    }
+
+    html {
+      background-color: #2D080E !important;
+      background-image: url('images/chic_red_texture.jpg') !important;
+      background-size: cover !important;
+      background-attachment: fixed !important;
+      background-position: center center !important;
+      background-repeat: no-repeat !important;
+      min-height: 100%;
+    }
+
+    body {
+      background-color: #2D080E !important;
+      background-image: url('images/chic_red_texture.jpg') !important;
+      background-size: cover !important;
+      background-attachment: fixed !important;
+      background-position: center center !important;
+      background-repeat: no-repeat !important;
+    }
+
+    /* Fixed background canvas that guarantees the rich red velvet texture is ALWAYS visible */
+    #fixed-bg-canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: #2D080E;
+      background-image: url('images/chic_red_texture.jpg');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      z-index: -20;
+      pointer-events: none;
+    }
+
+    /* Neutralize host badges */
+    #ship-badge, .ship-badge, [class*="ship-"], [id*="ship-"], a[href*="ship.page"], iframe[src*="ship.page"],
+    div[style*="bottom:"][style*="right:"][style*="position: fixed"] {
+      display: none !important; opacity: 0 !important; visibility: hidden !important; pointer-events: none !important;
+    }
+  
+
+</style>
+  <script>
+    (function() {
+      const zap = () => {
+        document.querySelectorAll('a[href*="ship.page"], a[href*="ship.place"], iframe[src*="ship.page"], [id*="ship"], [class*="ship-badge"]').forEach(el => {
+          const c = el.closest('div[style*="fixed"], aside') || el;
+          if (c && c !== document.body) { c.style.display = 'none'; c.remove(); }
+        });
+        document.querySelectorAll('div, aside, span, button, a').forEach(el => {
+          if (el.children.length <= 5) {
+            const txt = (el.textContent || '').trim();
+            if (txt.includes('Hosted on ship.page') || txt.includes('Hide this on my drops')) {
+              const target = el.closest('div[style*="position: fixed"], aside') || el;
+              if (target && target !== document.body) { target.style.display = 'none'; target.remove(); }
+            }
+          }
+        });
+      };
+      if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', zap); else zap();
+      new MutationObserver(zap).observe(document.documentElement, { childList: true, subtree: true });
+      setInterval(zap, 350);
+    })();
+  </script>
+</head>
+<body class="bg-[#2D080E] text-white font-['Inter'] antialiased p-4 sm:p-8 md:p-12 selection:bg-[#E2C7B0] selection:text-black" style="background-color: #2D080E; background-image: url('images/chic_red_texture.jpg'); background-size: cover; background-attachment: fixed; background-position: center;">
+
+  <div id="fixed-bg-canvas" aria-hidden="true"></div>
+
+  <!-- Floating Print / Action Header -->
+  <div class="max-w-4xl mx-auto mb-8 flex items-center justify-between no-print border-b border-white/20 pb-4">
+    <a href="index.html" class="flex items-center gap-2 text-xs font-semibold text-white/90 hover:text-white transition-colors">
+      <i data-lucide="arrow-left" class="w-4 h-4 text-[#E2C7B0]"></i>
+      <span>Back to Main Portfolio (POONJISHARMA.com)</span>
+    </a>
+    <div class="flex items-center gap-3">
+      <button onclick="window.print()" class="glass-btn px-5 py-2 text-xs font-semibold flex items-center gap-2 font-mono">
+        <i data-lucide="printer" class="w-4 h-4 text-[#E2C7B0]"></i>
+        <span>Print / Save as PDF</span>
+      </button>
+      <a href="mailto:Poonjish@gmail.com" class="glass-btn px-4 py-2 text-xs font-semibold flex items-center gap-2 font-mono">
+        <i data-lucide="mail" class="w-4 h-4 text-[#E2C7B0]"></i>
+        <span>Contact Directly</span>
+      </a>
+    </div>
+  </div>
+
+  <main class="max-w-4xl mx-auto glass-card border border-white/30 rounded-3xl p-8 sm:p-12 md:p-16 shadow-2xl relative print-card text-white">
+    
+    <!-- HEADER -->
+    <header class="border-b border-[#C8A282]/30 pb-10 mb-10">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-6">
+        <div class="flex items-center gap-6">
+          <img src="images/poonji_real.jpg" alt="Poonji Sharma" class="w-20 h-20 sm:w-24 sm:h-24 rounded-2xl object-cover object-top border-2 border-[#C8A282] shadow-md shrink-0">
+          <div>
+            <span class="text-xs uppercase tracking-widest text-[#C8A282] font-bold block mb-2 font-mono">✦ EXECUTIVE DOSSIER &bull; BRAND STRATEGY & GLOBAL STORYTELLING ✦</span>
+            <h1 class="text-3xl sm:text-5xl font-black text-white font-['Playfair_Display'] tracking-tight mb-2">POONJI SHARMA</h1>
+            <p class="text-sm sm:text-base text-[#D5C2B2] font-normal max-w-xl leading-relaxed">
+              Brand Strategist & Storyteller specializing in 360-degree omnichannel campaigns, cultural narratives, media, and high-impact communications.
+            </p>
+          </div>
+        </div>
+        <div class="text-left sm:text-right text-xs text-[#D5C2B2] space-y-1.5 font-normal shrink-0 font-mono">
+          <div><strong class="text-white">Email:</strong> Poonjish@gmail.com</div>
+          <div><strong class="text-white">Location:</strong> Delhi-NCR, India <span class="text-[#C8A282] font-semibold">(Open to Relocate)</span></div>
+          <div><strong class="text-white">LinkedIn:</strong> linkedin.com/in/poonjisharma</div>
+          <div><strong class="text-white">Instagram:</strong> @poonji_sharma_28</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- KEY IMPACT METRICS -->
+    <section class="mb-12">
+      <h2 class="text-xs uppercase tracking-widest text-[#C8A282] font-bold mb-4 font-mono">Executive Impact Highlights</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+        <div class="glass-pill p-4 shadow-md">
+          <span class="text-2xl font-black text-white block font-['Playfair_Display']">4-Station</span>
+          <span class="text-xs text-[#E2C7B0] font-bold block mt-1 font-mono">Radio Roadblock</span>
+          <p class="text-[11px] text-white/80 mt-1 leading-tight">Simultaneous audio blitz across Red FM, Fever, Hit 95, Big FM</p>
+        </div>
+        <div class="glass-pill p-4 shadow-md">
+          <span class="text-2xl font-black text-white block font-['Playfair_Display']">1st. in North India</span>
+          <span class="text-xs text-[#E2C7B0] font-bold block mt-1 font-mono">Robotics Launch</span>
+          <p class="text-[11px] text-white/80 mt-1 leading-tight">Brainlab Loop-X & ACNS Center 360&deg; launch & press host</p>
+        </div>
+        <div class="glass-pill p-4 shadow-md">
+          <span class="text-2xl font-black text-white block font-['Playfair_Display']">10+ Brands</span>
+          <span class="text-xs text-[#E2C7B0] font-bold block mt-1 font-mono">Marquee Portfolio</span>
+          <p class="text-[11px] text-white/80 mt-1 leading-tight">Amrita, Brainlab, NDTV, News NCR, Manav Rachna, Red FM</p>
+        </div>
+        <div class="glass-pill p-4 shadow-md">
+          <span class="text-2xl font-black text-white block font-['Playfair_Display']">100+ Hours</span>
+          <span class="text-xs text-[#E2C7B0] font-bold block mt-1 font-mono">Broadcast & Stage</span>
+          <p class="text-[11px] text-white/80 mt-1 leading-tight">National TV broadcast journalism, medical moderations, keynote delivery</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXECUTIVE SUMMARY -->
+    <section class="mb-12">
+      <h2 class="text-xs uppercase tracking-widest text-[#C8A282] font-bold mb-3 font-mono">Executive Profile & Value Proposition</h2>
+      <p class="text-sm sm:text-base text-[#FDF9F5] leading-relaxed font-normal">
+        A rare dual-threat Brand Strategist who unites <strong class="text-white">high-level creative strategy with tactical broadcast execution</strong>. Proven track record in orchestrating multi-million audience awareness blitzes, translating complex robotic surgeries and healthcare innovations into emotional human stories, and leading cross-functional creative, clinical, and media teams. Known for single-handedly managing high-stakes live press conferences, directing on-ground conceptual video shoots, and executing simultaneous multi-network radio campaigns.
+      </p>
+    </section>
+
+    <!-- CORE STRATEGIC COMPETENCIES -->
+    <section class="mb-12">
+      <h2 class="text-xs uppercase tracking-widest text-[#C8A282] font-bold mb-4 font-mono">Core Strategic Competencies</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+        <div class="space-y-2">
+          <h3 class="text-sm font-bold text-white flex items-center gap-2 font-playfair">
+            <span class="w-2 h-2 rounded-full bg-[#C8A282]"></span>
+            <span>Brand Strategy & Positioning</span>
+          </h3>
+          <p class="text-xs text-[#D5C2B2] leading-relaxed">
+            Brand archetypes, core narrative architecture, value proposition articulation, and institutional tone of voice.
+          </p>
+        </div>
+        <div class="space-y-2">
+          <h3 class="text-sm font-bold text-white flex items-center gap-2 font-playfair">
+            <span class="w-2 h-2 rounded-full bg-[#C8A282]"></span>
+            <span>360&deg; Omnichannel Campaigns</span>
+          </h3>
+          <p class="text-xs text-[#D5C2B2] leading-relaxed">
+            Synchronized OOH transit media, cross-network radio roadblocks, digital performance marketing, and experiential activations.
+          </p>
+        </div>
+        <div class="space-y-2">
+          <h3 class="text-sm font-bold text-white flex items-center gap-2 font-playfair">
+            <span class="w-2 h-2 rounded-full bg-[#C8A282]"></span>
+            <span>Broadcast & Keynote Moderation</span>
+          </h3>
+          <p class="text-xs text-[#D5C2B2] leading-relaxed">
+            National TV news anchoring, press conference moderation alongside surgeons & CEOs, and high-retention corporate storytelling.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- KEY CASE STUDIES -->
+    <section class="mb-12">
+      <h2 class="text-xs uppercase tracking-widest text-[#C8A282] font-bold mb-6 font-mono">Featured Executive Case Studies</h2>
+      <div class="space-y-6">
+        
+        <!-- CASE 1 -->
+        <div class="border-l-2 border-[#C8A282] pl-6 py-1">
+          <div class="flex items-center justify-between mb-1">
+            <h3 class="text-lg font-bold text-white font-playfair">Brainlab x Amrita: North India's 1st ACNS Loop-X Launch</h3>
+            <span class="text-xs font-mono text-[#C8A282] font-bold">MedTech Robotics</span>
+          </div>
+          <p class="text-xs text-[#D5C2B2] leading-relaxed mb-3">
+            <strong class="text-white">Challenge:</strong> Demystify high-precision surgical robotics for both a hesitant public and the medical fraternity.<br>
+            <strong class="text-white">Strategy & Execution:</strong> Spearheaded the comprehensive launch of the Advanced Centre for Neuro and Spine Surgery. Directed 360&deg; creative campaigns, managed extensive Delhi-NCR OOH transit visibility, scripted multi-station radio spots, and moderated the high-stakes national press conference alongside leading neurosurgeons.<br>
+            <strong class="text-white">Impact:</strong> 100% media turnout from national print & broadcast houses, establishing Amrita as North India's premier neuro-robotics center.
+          </p>
+        </div>
+
+        <!-- CASE 2 -->
+        <div class="border-l-2 border-[#C8A282] pl-6 py-1">
+          <div class="flex items-center justify-between mb-1">
+            <h3 class="text-lg font-bold text-white font-playfair">World Heart Day: Quad-Station Delhi-NCR Synchronized Audio Roadblock</h3>
+            <span class="text-xs font-mono text-[#C8A282] font-bold">Preventive Cardiology</span>
+          </div>
+          <p class="text-xs text-[#D5C2B2] leading-relaxed mb-3">
+            <strong class="text-white">Challenge:</strong> Break through the seasonal clutter of generic healthcare promotions.<br>
+            <strong class="text-white">Strategy & Execution:</strong> Single-handedly conceptualized, scripted, and directed an emotive awareness film on-ground with clinical teams, while simultaneously orchestrating a synchronized audio roadblock across all 4 major Delhi-NCR radio networks (Red FM, Fever 104, Hit 95, Big FM) with high-frequency OOH support.<br>
+            <strong class="text-white">Impact:</strong> Dominant Delhi-NCR airwave share and record preventive cardiology clinical screening turnout.
+          </p>
+        </div>
+
+        <!-- CASE 3 -->
+        <div class="border-l-2 border-[#C8A282] pl-6 py-1">
+          <div class="flex items-center justify-between mb-1">
+            <h3 class="text-lg font-bold text-white font-playfair">Nari Parv: Decode Your DNA (Genomics Package)</h3>
+            <span class="text-xs font-mono text-[#C8A282] font-bold">Experiential Product Marketing</span>
+          </div>
+          <p class="text-xs text-[#D5C2B2] leading-relaxed mb-3">
+            <strong class="text-white">Challenge:</strong> Transform complex genetic screening into a culturally resonant, approachable consumer product.<br>
+            <strong class="text-white">Strategy & Execution:</strong> Created an emotional cultural hook by designing physical touchpoints styled as traditional Bindi packets containing DNA wellness education, paired with targeted digital storytelling.<br>
+            <strong class="text-white">Impact:</strong> High-conversion preventive genetic package adoption among female health consumers.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- INSTITUTIONAL CLIENTS -->
+    <section class="border-t border-[#C8A282]/30 pt-8">
+      <h2 class="text-xs uppercase tracking-widest text-[#C8A282] font-bold mb-4 font-mono">Brands & Institutions Represented</h2>
+      <div class="flex flex-wrap gap-2 text-xs">
+        <span class="px-3 py-1.5 rounded-lg bg-[#240810] border border-[#C8A282]/40 text-[#E8D3C0] font-medium">Amrita Hospital</span>
+        <span class="px-3 py-1.5 rounded-lg bg-[#240810] border border-[#C8A282]/40 text-[#E8D3C0] font-medium">Amrita Vishwa Vidyapeetham</span>
+        <span class="px-3 py-1.5 rounded-lg bg-[#240810] border border-[#C8A282]/40 text-[#E8D3C0] font-medium">Brainlab (Germany)</span>
+        <span class="px-3 py-1.5 rounded-lg bg-[#240810] border border-[#C8A282]/40 text-[#E8D3C0] font-medium">NDTV</span>
+        <span class="px-3 py-1.5 rounded-lg bg-[#240810] border border-[#C8A282]/40 text-[#E8D3C0] font-medium">News NCR</span>
+        <span class="px-3 py-1.5 rounded-lg bg-[#240810] border border-[#C8A282]/40 text-[#E8D3C0] font-medium">Manav Rachna</span>
+        <span class="px-3 py-1.5 rounded-lg bg-[#240810] border border-[#C8A282]/40 text-[#E8D3C0] font-medium">93.5 Red FM</span>
+        <span class="px-3 py-1.5 rounded-lg bg-[#240810] border border-[#C8A282]/40 text-[#E8D3C0] font-medium">Fever 104 FM</span>
+        <span class="px-3 py-1.5 rounded-lg bg-[#240810] border border-[#C8A282]/40 text-[#E8D3C0] font-medium">Hit 95 FM</span>
+        <span class="px-3 py-1.5 rounded-lg bg-[#240810] border border-[#C8A282]/40 text-[#E8D3C0] font-medium">92.7 Big FM</span>
+      </div>
+    </section>
+
+  </main>
+
+  <script>
+    lucide.createIcons();
+  </script>
+
+</body>
+</html>
